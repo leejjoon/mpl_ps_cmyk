@@ -14,5 +14,5 @@ setup(
   packages          = ['mpl_toolkits','mpl_toolkits.ps_cmyk'],
   package_dir       = {'mpl_toolkits':'mpl_toolkits',
                        "mpl_toolkits.ps_cmyk":"mpl_toolkits/ps_cmyk"},
-  package_data = {'mpl_toolkits.ps_cmyk': ['icc-files/*.icc']},
+  package_data = {'mpl_toolkits.ps_cmyk': ['icc-profiles-1.0.1/*.ic*']},
   )

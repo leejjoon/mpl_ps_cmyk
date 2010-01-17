@@ -1,0 +1,139 @@
+This package was debianized by Oleksandr Moskalenko <malex@debian.org> on
+Thu,  4 Aug 2005 17:40:43 -0600.
+
+Its constituent parts were downloaded from the following sites:
+
+http://photogamut.org/E_ICC_profile.html
+http://homepage.mac.com/hanspeterharpf/LStar-RGB/FileSharing36.html
+http://eci.org/eci/downloads/ECI-en/icc_profiles_from_eci/ECI_Offset_2004.zip
+http://eci.org/eci/downloads/ECI-en/icc_profiles_from_eci/eciRGBv10.zip
+
+http://web.archive.org/web/20020603153925/srgb.com/usingsrgb.html
+
+Copyright Holders:
+
+--------------------------------------------------------------------------
+
+The PhotoGamutRGB working group <info@photogamut.org>
+
+License:
+
+Creative Commons Attribution.NoDerivs 2.5
+(http://creativecommons.org/licenses/by-nd/2.5/legalcode)
+
+--------------------------------------------------------------------------
+
+European Color Initiative <info@eci.org>
+
+Heidelberg License
+License terms ("LICENSE") for the use of HEIDELBERG ICC profiles with profile
+properties as defined in this license
+1 Definition
+1.1 For generic ICC profiles for the profiling of standard printing conditions
+which have been produced with software of Heidelberger Druckmaschinen AG
+("HEIDELBERG") ("PROFILES"), HEIDELBERG agrees to a free distribution and use
+of the PROFILES, on condition that the distributor and/or user ("LICENSEE")
+agrees to the following terms.
+1.2 Standard printing conditions within the meaning of this LICENSE are
+standards defined by international or national standardization bodies such as
+ISO 12647 and the respective parts thereof or are a de facto standards in
+certain regions of the world.
+2 Scope of the Right of Use
+2.1 HEIDELBERG grants the LICENSEE a non-exclusive right to use the PROFILES.
+2.2 The LICENSEE is allowed to redistribute the PROFILES and to transfer this
+Right of Use to a third party on condition that these PROFILES are always
+distributed together with this LICENSE and that the third party accepts that
+the license transferred by the LICENSEE is subject to the terms of this
+LICENSE. The PROFILES may be redistributed also bundled together with other
+software.
+3 Exclusion of other Use
+3.1 It is explicitly prohibited to charge any kind of remuneration for the
+distribution of these PROFILES.
+3.2 It is not allowed to edit these PROFILES or to change the entries in the
+profile tags or to use the inherent technical solutions for any purpose other
+than the actual purpose of an ICC profile. If the PROFILES will be sold
+bundled together with commercial software, then it is not allowed to charge an
+extra price for the PROFILES.
+4 Warranty and Liability
+4.1 The PROFILES are provided "as is" free of charge and devoid of all claims
+against HEIDELBERG or the distributor of these PROFILES.
+4.2 This LICENSE excludes all liability, including the liability for damages.
+5 Copyright
+The copyright on the PROFILES remains with HEIDELBERG.
+6 General Terms
+6.1 The Right of Use as described in point 2.1 is void with immediate effect
+upon violation of this LICENSE.
+6.2 This LICENSE applies explicitly to generic profiles only for the profiling
+of printing standards, as specified in point 1. This LICENSE expressly does
+not apply to profiles produced with HEIDELBERG software which profile the
+properties of a specific device.
+
+Heidelberg, September 2003
+
+--------------------------------------------------------------------------
+
+Color Solutions Software <info@color-solutions.de>
+
+License:
+
+The LStar-RGB Profile License Agreement, Version 1.1
+DO NOT USE THIS PROFILE, IF YOU DISAGREE WITH THE TERMS OF THIS LICENSE
+Copyright (c) 2004 Color Solutions Software. All rights reserved.
+The ICC profile supplied to you and the software to create this profile are
+the Intellectual property of Color Solutions Software and protected by
+Copyright. They may only be used for the purpose mutually agreed in the
+license agreement or order under which this material is being supplied. Any
+unauthorised use for other purposes will be prosecuted as an infringement of
+Color Solutions Software's Copyright. Redistribution and use, without any
+modifications, are permitted provided that the following conditions are met:
+1. Redistributions of profile must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+2. The end-user documentation included with the redistribution, if any, must
+include the following acknowledgment: "This product includes software
+developed by Color Solutions Software (http://www.color-solutions.de/)."
+3. The LStar-RGB profile may not be used in combination or as a part of a
+commercial product without prior written permission. For written permission,
+please contact info@color-solutions.de.
+4. The names "LStar-RGB" and "Color Solutions Software" must not be used to
+endorse or promote products derived from this profile without prior written
+permission. For written permission, please contact info@color-solutions.de.
+5. Products derived from or bundled with this profile may not be called
+"LStar-RGB", nor may "LStar-RGB" appear in their name, without prior written
+permission of Color Solutions Software.
+THIS PROFILE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL COLOR
+SOLUTIONS SOFTWARE OR COLOR SOLUTIONS CONSULTING BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS PROFILE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+========================================================================
+Copyright (c) 2003,2004 Color Solutions Software, Falkenstrasse 15a,
+82377 Penzberg, Germany. Permission to use, copy, and distribute this
+profile and its documentation for any other than commercial purpose
+(including bundling with products, enhancing a product's performance or
+value) is hereby granted without fee, provided that the above copyright
+notice appear in all copies and that both that copyright notice and this
+permission notice appear in supporting documentation. Color Solutions
+Software makes no representations about the suitability of this profile
+for any purpose. It is provided "as is" without express or implied
+warranty.
+
+--------------------------------------------------------------------------
+
+Hewlett-Packard Company
+
+sRGB Profile Licensing Agreement:
+To anyone who acknowledges that the file "sRGB Color Space Profile.icm" is
+provided "AS IS" WITH NO EXPRESS OR IMPLIED WARRANTY: permission to use, copy
+and distribute this file for any purpose is hereby granted without fee,
+provided that the file is not changed including the HP copyright notice tag,
+and that the name of Hewlett-Packard Company not be used in advertising or
+publicity pertaining to distribution of the software without specific, written
+prior permission. Hewlett-Packard Company makes no representations about the
+suitability of this software for any purpose.
+
+Reference : http://web.archive.org/web/20020603153925/srgb.com/usingsrgb.html
