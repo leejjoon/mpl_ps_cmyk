@@ -6,8 +6,7 @@ from os.path import dirname, join, exists
 
 import backend_ps_cmyk
 
-_icc_dir = join(dirname(backend_ps_cmyk.__file__), "icc-profiles-1.0.1")
-#_icc_dir = ""
+_icc_dir = join(dirname(backend_ps_cmyk.__file__), "icc-profiles")
 
 def set_icc_dir(dir_name):
     _icc_dir = dirname
@@ -44,7 +43,7 @@ class RendererPSCMYK(RendererPS):
     @classmethod
     def get_default_profile_names(cls):
         return cls._search_profile("sRGB.icm"), \
-               cls._search_profile("ISOwebcoated.icc")
+               cls._search_profile("USWebCoatedSWOP.icc")
         
     @classmethod
     def set_default_profiles(cls):
