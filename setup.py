@@ -2,7 +2,7 @@ from distutils.core import setup
 
 from distutils.command.install import install as _install
 
-import os.path
+import os
 
 _adobe_icc_zip_file = "AdobeICCProfilesCS4Mac_end-user.zip"
 _adobe_url = "http://www.adobe.com/support/downloads/detail.jsp?ftpID=4074"
@@ -13,6 +13,11 @@ if not os.path.exists(_adobe_icc_zip_file):
 def install_iccfiles(basedir):
     icc_dir = os.path.join(basedir,
                            "mpl_toolkits", "ps_cmyk", "icc-profiles")
+
+    if not os.path.exists(icc_dir):
+        os.makedirs(icc_dir)
+        
+    print "Installing ICC files under %s" % (icc_dir,)
     import zipfile
     zf = zipfile.ZipFile("AdobeICCProfilesCS4Mac_end-user.zip")
     zfil = zf.infolist()
