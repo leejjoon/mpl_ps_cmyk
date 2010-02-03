@@ -9,9 +9,13 @@ import matplotlib.pyplot as plt
 plt.imshow(np.arange(100).reshape(10,10))
 
 # use default profiles
-plt.savefig("a.eps", format="eps_cmyk")
+plt.savefig("test_rgb.eps", format="eps")
+
+# use default profiles
+plt.savefig("test_cmyk.eps", format="eps_cmyk")
 
 
 # use specified profiles
 mpl_toolkits.ps_cmyk.use_profiles("sRGB.icm", "ISOuncoated.icc")
-plt.savefig("b.eps", format="eps_cmyk")
+plt.savefig("test_cmyk2.eps", format="eps_cmyk")
+

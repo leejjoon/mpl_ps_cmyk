@@ -1,0 +1,12 @@
+
+*mpl_toolkits.ps_cmyk* module provides a ps backend that saves images
+ (and only images) in CMYK colorspace. It depends on *lcms* for color
+ conversion, i.e., you need to have lcms and its python module
+ installed (http://www.littlecms.com/).
+
+It contains sample of icc files but needs you also download icc files
+from Adobe.
+
+To install, download "AdobeICCProfilesCS4Mac_end-user.zip" from
+http://www.adobe.com/support/downloads/detail.jsp?ftpID=4074 and place
+it in the same directory as setup.py. Then run "python setup.py install".
