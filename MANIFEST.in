@@ -1,0 +1,3 @@
+recursive-include examples *.py
+mpl_toolkits/ps_cmyk/icc-profiles/copyright
+recursive-include mpl_toolkits/ps_cmyk/icc-profiles *.icc *.icm
