@@ -35,13 +35,14 @@ class RGB2CMYK(object):
         RGB = lcms.COLORB()
         CMYK = lcms.COLORB()
 
-        cmyk_ = np.array([(lcms.cmsDoTransform(self.RGB2CMYK_transform,
-                                               RGB, CMYK, 1),
-                           (CMYK[0], CMYK[1], CMYK[2], CMYK[3]))[1] \
-                          for RGB[0], RGB[1], RGB[2] in rgb])
+        cmyk_ = [(lcms.cmsDoTransform(self.RGB2CMYK_transform,
+                                      RGB, CMYK, 1),
+                  (CMYK[0], CMYK[1], CMYK[2], CMYK[3]))[1] \
+                 for rgb1 in rgb for
+                 RGB[0], RGB[1], RGB[2] in [map(int, rgb1)]]
 
         shape = orig_shape[:-1] + (4,)
-        cmyk = cmyk_.reshape(shape)
+        cmyk = np.array(cmyk_).reshape(shape)
 
         return cmyk
 
